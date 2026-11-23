@@ -1,0 +1,15 @@
+[
+  "Токенізація: слова, підслова, BPE",
+  "Мішок слів і TF-IDF",
+  "Векторні представлення слів: word2vec, GloVe",
+  "Мовні моделі на n-грамах і перплексія",
+  "Рекурентні нейронні мережі (RNN, LSTM, GRU)",
+  "Механізм уваги (attention)",
+  "Архітектура Transformer",
+  "BERT і дотренування (fine-tuning) для класифікації",
+  "Генерація тексту: greedy, sampling, temperature, top-k, top-p",
+  "Метрики класифікації: precision, recall, F1",
+  "Prompt engineering і zero-/few-shot",
+  "LLM-агенти та виклик інструментів (tool use)",
+  "Retrieval-Augmented Generation (RAG)"
+]
