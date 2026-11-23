@@ -23,6 +23,7 @@ with st.sidebar:
     if st.button("Почати новий іспит"):
         st.session_state.pop("agent", None)
         st.session_state.pop("chat", None)
+        st.session_state.pop("config", None)
         st.rerun()
     st.caption("Тестові студенти: data/students.json")
 
@@ -31,9 +32,9 @@ if not api_key:
     st.stop()
 
 config = (provider, custom.strip() or model, api_key)
-if st.session_state.get("config") != config:
-    st.session_state.config = config
+if st.session_state.get("config") != config or "agent" not in st.session_state:
     st.session_state.agent = ExamAgent(*config)
+    st.session_state.config = config
     st.session_state.chat = [("assistant", "Вітаю! Я екзаменатор курсу NLP. Назвіть, будь ласка, ваше ім'я та email.")]
 
 agent: ExamAgent = st.session_state.agent

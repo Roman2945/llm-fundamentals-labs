@@ -10,7 +10,7 @@ PROVIDERS = {
     "Groq (безкоштовний доступ)": {
         "kind": "openai",
         "base_url": "https://api.groq.com/openai/v1",
-        "models": ["llama-3.3-70b-versatile", "openai/gpt-oss-120b", "openai/gpt-oss-20b", "qwen/qwen3-32b"],
+        "models": ["openai/gpt-oss-120b", "openai/gpt-oss-20b", "qwen/qwen3-32b"],
         "key_hint": "gsk_...",
         "note": "Ключ: https://console.groq.com/keys",
     },

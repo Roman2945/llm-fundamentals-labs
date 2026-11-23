@@ -30,7 +30,7 @@ pinned: false
 
 ## Мовна модель
 Провайдер обирається в боковій панелі, ключ API вводиться в поле (у коді не зберігається):
-* **Groq** (безкоштовний доступ): `llama-3.3-70b-versatile`, `openai/gpt-oss-120b` та ін.
+* **Groq** (безкоштовний доступ): `openai/gpt-oss-120b`, `openai/gpt-oss-20b` та ін.
 * **OpenRouter**: безкоштовні моделі з суфіксом `:free`.
 * **Anthropic Claude**: `claude-haiku-5-5` (найдешевша), `claude-sonnet-5-5`, `claude-opus-5-5`.
 

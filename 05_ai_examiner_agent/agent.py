@@ -79,7 +79,7 @@ OPENAI_PROVIDERS = {
     "OpenRouter": "https://openrouter.ai/api/v1",
 }
 PROVIDER_MODELS = {
-    "Groq (безкоштовний доступ)": ["openai/gpt-oss-120b", "llama-3.3-70b-versatile", "qwen/qwen3-32b"],
+    "Groq (безкоштовний доступ)": ["openai/gpt-oss-120b", "openai/gpt-oss-20b", "qwen/qwen3-32b"],
     "OpenRouter": ["openai/gpt-oss-20b:free", "meta-llama/llama-3.3-70b-instruct:free"],
     "Anthropic Claude": ["claude-haiku-5-5", "claude-sonnet-5-5", "claude-opus-5-5"],
 }
